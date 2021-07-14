@@ -1,0 +1,22 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcService";
+
+
+// The greeting service definition.
+service PersonProto {
+  // Sends a greeting
+  rpc GetPersonById (PersonLookupModel) returns (PersonModel);
+}
+
+// The request message containing the user's name.
+message PersonLookupModel {
+  int32 id = 1;
+}
+
+// The response message containing the greetings.
+message PersonModel {
+string firstName = 1;
+string lastName = 2;
+    
+}

@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kuba/Projects/GrpcService/GrpcService/GrpcService.csproj": {}
+  },
+  "projects": {
+    "/Users/kuba/Projects/GrpcService/GrpcService/GrpcService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kuba/Projects/GrpcService/GrpcService/GrpcService.csproj",
+        "projectName": "GrpcService",
+        "projectPath": "/Users/kuba/Projects/GrpcService/GrpcService/GrpcService.csproj",
+        "packagesPath": "/Users/kuba/.nuget/packages/",
+        "outputPath": "/Users/kuba/Projects/GrpcService/GrpcService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kuba/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
